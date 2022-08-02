@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Projects",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "splash": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "colors": {
+      "displayName": "colors",
+      "type": "component",
+      "repeatable": true,
+      "component": "colors.colors",
+      "required": true
+    },
+    "tools": {
+      "displayName": "tools",
+      "type": "component",
+      "repeatable": true,
+      "component": "tools.tools",
+      "required": true
+    }
+  }
+}

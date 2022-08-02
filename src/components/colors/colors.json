@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_colors_colors",
+  "info": {
+    "displayName": "colors",
+    "icon": "eye-dropper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color_code": {
+      "type": "string"
+    }
+  }
+}

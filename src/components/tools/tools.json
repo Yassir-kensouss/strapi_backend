@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_tools_tools",
+  "info": {
+    "displayName": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "tool": {
+      "type": "string"
+    }
+  }
+}
